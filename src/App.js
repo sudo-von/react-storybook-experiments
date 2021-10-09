@@ -1,5 +1,11 @@
+import Button from './components/Button/Button'
+
 const App = () => {
-  return null
+  return (
+    <Button>
+      Click me
+    </Button>
+  )
 }
 
 export default App
