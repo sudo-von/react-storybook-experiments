@@ -5,6 +5,7 @@ import ListItem from '../ListItem/ListItem'
 export default {
   title: 'Compontents/List',
   component: List,
+  subcomponents: { ListItem },
   argTypes: {
     childrenNumber: { type: 'number', defaultValue: 3 },
   },
